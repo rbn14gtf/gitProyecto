@@ -1,0 +1,6 @@
+65169797
+38 cable  si
+37 no
+
+37 wifi
+38 cable
