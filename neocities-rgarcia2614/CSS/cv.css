@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-box-sizing: content-box;
+  /*background-image: url("C:\Users\Alfredo\Desktop\Proyectos\LLMM\imagenes\Logoblanco.png");*/
+}
+.container{
+  border: 10px groove goldenrod;
+  border-radius:10px;
+  margin: auto;
+}
+body {
+  background-color: rgb(65, 64, 64);
+  color: black;
+  font-family: Verdana;
+  text-align: center;
+}
+nav{
+  padding: 6px;
+  margin: 40px;
+  background: #242424;
+  border: 5px dashed yellow;
+  font-size: 20px;
+  border-radius:10px;
+  /*width: fit-content;*/ 
+  margin-right: 15%;
+  width: max-content;
+}
+header {
+  padding: 6px;
+  margin: 40px;
+  text-align: center;
+  background: #242424;
+  color:yellow;
+  border: 5px dashed yellow;
+  border-radius:10px;
+} 
+.lateral{
+  float: left;
+}
+/*
+.cara{
+  border: 5px dashed yellow;
+  border-radius:10px;
+  width: fit-content;
+  margin: auto;
+}*/
+.video{
+  margin: auto;
+  border: 5px dashed yellow;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+article{
+  text-align: center;
+  margin: auto;
+}
+td{
+  border: 5px groove yellow;
+  border-radius:10px;
+}
+
+table{
+  margin: 5% auto;
+  text-align: center;
+  border: 5px dashed black;
+  border-radius:10px;
+  width: auto;
+}
+.toinicio{
+  margin: auto;
+  border: 5px groove goldenrod;
+  border-radius:10px;
+  width: fit-content;
+  
+}
+
+a:visited{
+  color: #609;
+}
+a:link{
+  color: yellow;
+}
+a:hover{
+  color: #609;
+  text-decoration:line-through; 
+}
+a:active{
+  color: yellow;
+}
+a{
+  border: 5px dashed black;
+}
+footer{
+  color:yellow;
+  padding: 2px;
+  margin: 20px;
+  background: #242424;
+  border: 5px dashed yellow;
+  border-radius:10px;
+}

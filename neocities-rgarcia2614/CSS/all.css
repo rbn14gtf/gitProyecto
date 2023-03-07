@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+
+  /*background-image: url("C:\Users\Alfredo\Desktop\Proyectos\LLMM\imagenes\Logoblanco.png");*/
+}
+
+.container {
+  border: 10px groove goldenrod;
+  border-radius: 10px;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(65, 64, 64);
+  color: black;
+  font-family: Verdana;
+  text-align: center;
+}
+
+nav {
+  padding: 6px;
+  margin: auto 40px;
+  background: #242424;
+  border: 5px dashed yellow;
+  font-size: 20px;
+  border-radius: 10px;
+  width: fit-content;
+  float: left;
+}
+
+input,
+textarea,
+option,
+select {
+  background-color: rgb(65, 64, 64);
+}
+
+.check {
+  margin: auto;
+  border: 5px groove yellow;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.subtitulo {
+  border: 5px dashed yellow;
+  border-radius: 10px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  background: #242424;
+  color: yellow;
+
+}
+
+.art1,
+.art2,
+.art3 {
+  margin: 40px auto;
+  background: #242424;
+  border: 5px dashed yellow;
+  border-radius: 10px;
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 6px;
+  margin: 40px;
+  text-align: center;
+  background: #242424;
+  color: yellow;
+  border: 5px dashed yellow;
+  border-radius: 10px;
+}
+
+
+.video {
+  margin: auto 40px;
+  border: 5px dashed yellow;
+  width: fit-content;
+  border-radius: 10px;
+  float: right;
+}
+
+aside {
+  /*padding: 6px ;*/
+  background: #242424;
+  border: 5px dashed yellow;
+  border-radius: 10px;
+  width: fit-content;
+  margin: auto 40px;
+  float: right;
+}
+
+article {
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+}
+
+td {
+  border: 5px groove yellow;
+  border-radius: 10px;
+}
+
+.foto {
+  margin: auto 40px;
+  border: 5px dashed yellow;
+  border-radius: 10px;
+  width: fit-content;
+  float: right;
+
+}
+
+table {
+  text-align: center;
+  border: 5px dashed black;
+  border-radius: 10px;
+  width: auto;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.formulario {
+  float: right;
+}
+
+.toinicio {
+  margin: auto;
+  border: 5px groove goldenrod;
+  border-radius: 10px;
+  width: fit-content;
+  clear: both;
+}
+
+a:visited {
+  color: #609;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:hover {
+  color: #609;
+  text-decoration: line-through;
+}
+
+a:active {
+  color: yellow;
+}
+
+a {
+  border: 5px dashed black;
+}
+
+footer {
+  color: yellow;
+  padding: 2px;
+  margin: 20px;
+  background: #242424;
+  border: 5px dashed yellow;
+  border-radius: 10px;
+  clear: both;
+}
