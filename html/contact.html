@@ -12,5 +12,15 @@
     <nav>
         <a href="index.html">Inicio</a>
     </nav>
+    <div id="form">
+        <form action="todocorrecto.html" method="post">
+            <label for="nombreDiscoteca">Nombre de la Discoteca</label>
+            <input type="text" id="nombreDiscoteca" placeholder="Fabrik"><br>
+            <label for="telefonoDiscoteca">Teléfono de la Discoteca</label>
+            <input type="tel" id="telefonoDiscoteca" placeholder="654789123" pattern="^\d{9}$" maxlength="9"><br>
+            <input type="submit" id="enviarDatosFormularioContact" value="Enviar">
+
+        </form>
+    </div>
 </body>
 </html>
